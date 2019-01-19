@@ -1,6 +1,6 @@
 {
   "name": "nuxt-logrocket",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "LogRocket module for Nuxt.js",
   "license": "MIT",
   "contributors": [
