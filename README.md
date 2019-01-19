@@ -1,3 +1,7 @@
+<p align="center">
+<img src="./.assets/nuxt_LogRocket.webp" width="300px" alt="nuxt-logrocket">
+</p>
+
 # nuxt-logrocket
 
 [![npm (scoped with tag)](https://img.shields.io/npm/v/nuxt-logrocket/latest.svg?style=flat-square)](https://npmjs.com/package/nuxt-logrocket)
