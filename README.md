@@ -1,5 +1,5 @@
 <p align="center">
-<img src="./.assets/nuxt_LogRocket.webp" width="300px" alt="nuxt-logrocket">
+<img src="./.assets/nuxt_LogRocket.png" width="300px" alt="nuxt-logrocket">
 </p>
 
 # nuxt-logrocket
