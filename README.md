@@ -42,13 +42,28 @@ npm install nuxt-logrocket --save
     'nuxt-logrocket',
   ],
 
-  // module options
   logRocket: {
-    logRocketId: 'app/id' // this is acquired from your LogRocket account
-    devModeAllowed: true/false // this lets the module run in development mode
+    logRocketId: '',
+    devModeAllowed: false,
   }
 }
 ```
+
+## Options
+
+Options can be passed using either environment variables or `logRocket` section in `nuxt.config.js`.
+Setting required logRocket Id is enough.
+
+### logRocketId
+
+- Type: `String`
+  - Default: `process.env.LOGROCKET_ID || ''`
+
+### devModeAllowed
+
+- Type: `Boolean`
+  - Default: `process.env.LOGROCKET_DEV_MODE_ALLOWED || false`
+
 
 ## Usage
 
@@ -61,6 +76,8 @@ this.$logRocket
 ```
 
 in your components.
+
+If Vuex store is initialized, LogRocket Vuex plugin will be automatically registered.
 
 Visit LogRocket's website for a full list of features : [Docs](https://docs.logrocket.com/docs)
 
