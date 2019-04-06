@@ -52,7 +52,7 @@ npm install nuxt-logrocket --save
 ## Options
 
 Options can be passed using either environment variables or `logRocket` section in `nuxt.config.js`.
-Setting required logRocket Id is enough.
+Setting a value for the required `logRocketId` option is enough in most cases.
 
 ### logRocketId
 
@@ -67,7 +67,7 @@ Setting required logRocket Id is enough.
 
 ## Usage
 
-LogRocket gets automatically injected in to your application when it is setup correctly. By default this module works only in `production` and on client-side events.
+LogRocket gets automatically injected into your application when it is setup correctly. By default this module works only in `production` and on client-side events.
 
 In order to use LogRocket's injected functionality in your application, you can use :
 
@@ -75,7 +75,13 @@ In order to use LogRocket's injected functionality in your application, you can 
 this.$logRocket
 ```
 
-in your components.
+in your components or :
+
+```js
+app.$logRocket
+```
+
+in plugins.
 
 If Vuex store is initialized, LogRocket Vuex plugin will be automatically registered.
 
