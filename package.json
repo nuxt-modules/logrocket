@@ -45,7 +45,7 @@
     "standard-version": "^5.0.2"
   },
   "dependencies": {
-    "logrocket": "^0.6.20",
+    "logrocket": "^0.6.21",
     "logrocket-vuex": "^0.0.3"
   }
 }
