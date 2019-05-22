@@ -5778,10 +5778,10 @@ logrocket-vuex@^0.0.3:
   resolved "https://registry.yarnpkg.com/logrocket-vuex/-/logrocket-vuex-0.0.3.tgz#e11d65d384f0c9fdac72f984436cc038adf3db90"
   integrity sha1-4R1l04Twyf2scvmEQ2zAOK3z25A=
 
-logrocket@^0.6.21:
-  version "0.6.21"
-  resolved "https://registry.yarnpkg.com/logrocket/-/logrocket-0.6.21.tgz#f19749a4bc2ea51821a0f5acb08e811ac3d3f314"
-  integrity sha512-fyCA8PfNQqeuQyedqLQLiw47ibG8476a7C/amuusHKmqPdGo5GQmFD4Ba9vKRFbbakz+MmUdBGbYrQgq9K4e+g==
+logrocket@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/logrocket/-/logrocket-1.0.0.tgz#978238fa621702e963c86644006c9b4580eaf4f2"
+  integrity sha512-Y7xtbfuK9Ixpk63m3DvzcUNa5LTe82dqaf/vhlxFOgZCSFld8uxYrxqn59zd7v87FmD5SLa9VrMArli+h/YNCg==
 
 loose-envify@^1.0.0:
   version "1.4.0"
