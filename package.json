@@ -34,7 +34,7 @@
     "eslint": "^6.0.1",
     "eslint-config-standard": "latest",
     "eslint-plugin-import": "^2.18.0",
-    "eslint-plugin-jest": "^22.7.1",
+    "eslint-plugin-jest": "^22.7.2",
     "eslint-plugin-node": "latest",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "latest",
