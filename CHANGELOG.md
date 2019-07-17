@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.5](https://github.com/nuxt-community/nuxt-logrocket/compare/v1.2.4...v1.2.5) (2019-07-17)
+
+
+### Bug Fixes
+
+* **plugin:** init LogRocket upon ID existence ([7966b58](https://github.com/nuxt-community/nuxt-logrocket/commit/7966b58))
+
+
+
 ### [1.2.4](https://github.com/nuxt-community/nuxt-logrocket/compare/v1.2.3...v1.2.4) (2019-07-17)
 
 
