@@ -34,7 +34,7 @@
     "eslint": "^6.0.1",
     "eslint-config-standard": "latest",
     "eslint-plugin-import": "^2.18.0",
-    "eslint-plugin-jest": "^22.8.0",
+    "eslint-plugin-jest": "^22.9.0",
     "eslint-plugin-node": "latest",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "latest",
@@ -45,7 +45,7 @@
     "standard-version": "^6.0.1"
   },
   "dependencies": {
-    "logrocket": "^1.0.1",
+    "logrocket": "^1.0.2",
     "logrocket-vuex": "^0.0.3"
   }
 }

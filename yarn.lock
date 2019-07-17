@@ -3563,10 +3563,10 @@ eslint-plugin-import@^2.18.0:
     read-pkg-up "^2.0.0"
     resolve "^1.11.0"
 
-eslint-plugin-jest@^22.8.0:
-  version "22.8.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-22.8.0.tgz#242ef5459e8da25d2c41438e95eb546e03d7fae1"
-  integrity sha512-2VftZMfILmlhL3VMq5ptHRIuyyXb3ShDEDb1J1UjvWNzm4l+UK/YmwNuTuJcM0gv8pJuOfiR/8ZptJ8Ou68pFw==
+eslint-plugin-jest@^22.9.0:
+  version "22.9.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-22.9.0.tgz#2573dbcb4f1066b96a6e6d3b9aa439c80b28975a"
+  integrity sha512-V89BUiwf76FHlhj1mlNhNyvpzTy8VbWCh2RZpKYz/XDSl/pcuwFiE/LMt7r3q1sRKygzEMjbYeDob8MMuvakXg==
 
 eslint-plugin-node@latest:
   version "8.0.1"
@@ -5815,10 +5815,10 @@ logrocket-vuex@^0.0.3:
   resolved "https://registry.yarnpkg.com/logrocket-vuex/-/logrocket-vuex-0.0.3.tgz#e11d65d384f0c9fdac72f984436cc038adf3db90"
   integrity sha1-4R1l04Twyf2scvmEQ2zAOK3z25A=
 
-logrocket@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/logrocket/-/logrocket-1.0.1.tgz#0555ec619d2db54a7b345c4e8df09baea835b176"
-  integrity sha512-oPA0c5GzMKsWp/6p19OaujZQMzttluqVOI+989uHeciPAljPZvGEpZRbNO3Rr+jC/8jVLJdlMP9IHuyhKsASGA==
+logrocket@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/logrocket/-/logrocket-1.0.2.tgz#6ac569abadfc853268495888a85d214febdd5078"
+  integrity sha512-Ol9pjIY09oiFVupZf6SwD2+QpTV4T6e5d0Xb7Yya3P90R+P7eMafnVTix8nIX0SKumKksuhc0R1zednzAzLoTA==
 
 loose-envify@^1.0.0:
   version "1.4.0"
