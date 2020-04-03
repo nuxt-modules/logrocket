@@ -33,19 +33,19 @@
     "codecov": "^3.6.5",
     "eslint": "^6.8.0",
     "eslint-config-standard": "latest",
-    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jest": "^22.21.0",
     "eslint-plugin-node": "latest",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "latest",
     "eslint-plugin-vue": "^5.2.3",
-    "jest": "^25.1.0",
-    "jsdom": "^16.2.1",
+    "jest": "^25.2.7",
+    "jsdom": "^16.2.2",
     "nuxt-edge": "^2.6.0-25905610.75e8a893",
     "standard-version": "^7.1.0"
   },
   "dependencies": {
-    "logrocket": "^1.0.6",
+    "logrocket": "^1.0.7",
     "logrocket-vuex": "^0.0.3"
   }
 }
