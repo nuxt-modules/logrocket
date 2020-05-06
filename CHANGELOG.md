@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.9](https://github.com/nuxt-community/nuxt-logrocket/compare/v1.2.8...v1.2.9) (2020-05-06)
+
+
+### Bug Fixes
+
+* **tests:** remove unused modules section from nuxt.config ([2b40bb0](https://github.com/nuxt-community/nuxt-logrocket/commit/2b40bb06f933f6614ef177bee9953e81d3c4a64e))
+
 ### [1.2.8](https://github.com/nuxt-community/nuxt-logrocket/compare/v1.2.7...v1.2.8) (2020-04-09)
 
 
