@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.10](https://github.com/nuxt-community/nuxt-logrocket/compare/v1.2.9...v1.2.10) (2020-05-06)
+
+
+### Bug Fixes
+
+* **test:** use nuxt instead of nuxt-edge ([32a19a3](https://github.com/nuxt-community/nuxt-logrocket/commit/32a19a37371a46c8dcc1dda0d2e22b1f4d499e8c))
+
 ### [1.2.9](https://github.com/nuxt-community/nuxt-logrocket/compare/v1.2.8...v1.2.9) (2020-05-06)
 
 
