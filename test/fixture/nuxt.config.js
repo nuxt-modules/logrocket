@@ -7,6 +7,5 @@ module.exports = {
   dev: false,
   render: {
     resourceHints: false
-  },
-  modules: ['@@']
+  }
 }
