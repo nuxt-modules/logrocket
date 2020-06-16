@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.11](https://github.com/nuxt-community/nuxt-logrocket/compare/v1.2.10...v1.2.11) (2020-06-16)
+
 ### [1.2.10](https://github.com/nuxt-community/nuxt-logrocket/compare/v1.2.9...v1.2.10) (2020-05-06)
 
 
