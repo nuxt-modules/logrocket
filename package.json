@@ -39,7 +39,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "eslint-plugin-vue": "^6.2.2",
-    "jest": "^26.0.1",
+    "jest": "^26.1.0",
     "jsdom": "^16.2.2",
     "nuxt": "^2.13.0",
     "standard-version": "^8.0.0"
