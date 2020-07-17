@@ -3350,10 +3350,10 @@ code-point-at@^1.0.0:
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
   integrity sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
 
-codecov@^3.7.0:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/codecov/-/codecov-3.7.0.tgz#4a09939cde24447a43f36d068e8b4e0188dc3f27"
-  integrity sha512-uIixKofG099NbUDyzRk1HdGtaG8O+PBUAg3wfmjwXw2+ek+PZp+puRvbTohqrVfuudaezivJHFgTtSC3M8MXww==
+codecov@^3.7.1:
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/codecov/-/codecov-3.7.1.tgz#434cb8d55f18ef01672e5739d3d266696bebc202"
+  integrity sha512-JHWxyPTkMLLJn9SmKJnwAnvY09kg2Os2+Ux+GG7LwZ9g8gzDDISpIN5wAsH1UBaafA/yGcd3KofMaorE8qd6Lw==
   dependencies:
     argv "0.0.2"
     ignore-walk "3.0.3"
@@ -7398,10 +7398,10 @@ logrocket-vuex@^0.0.3:
   resolved "https://registry.yarnpkg.com/logrocket-vuex/-/logrocket-vuex-0.0.3.tgz#e11d65d384f0c9fdac72f984436cc038adf3db90"
   integrity sha1-4R1l04Twyf2scvmEQ2zAOK3z25A=
 
-logrocket@^1.0.9:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/logrocket/-/logrocket-1.0.9.tgz#0b4cab2535e0dcdf3c802eb604b109662a403d38"
-  integrity sha512-dsZh4zPRtZlPqmI3n4Sgkh5DeWo+rRh4NZhRm6BH9F3Jfv1WFDutISr1a5bQJb9rITvBbRgw3zTVeWjU71qyBg==
+logrocket@^1.0.10:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/logrocket/-/logrocket-1.0.10.tgz#c808221b9b604f735671d6c682bd8ed30718548f"
+  integrity sha512-7xi/Yla2S2QSqj7wvALUWQXrqWNIOuDpRRVFVbXC16ZsM+h+RRSMSgRJ88+8rE2/eMHIHXte+ok+AbzjtLYqWA==
 
 loose-envify@^1.0.0:
   version "1.4.0"

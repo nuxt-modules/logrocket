@@ -30,7 +30,7 @@
     "collectCoverage": true
   },
   "devDependencies": {
-    "codecov": "^3.7.0",
+    "codecov": "^3.7.1",
     "eslint": "^7.4.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.22.0",
@@ -45,7 +45,7 @@
     "standard-version": "^8.0.2"
   },
   "dependencies": {
-    "logrocket": "^1.0.9",
+    "logrocket": "^1.0.10",
     "logrocket-vuex": "^0.0.3"
   }
 }
