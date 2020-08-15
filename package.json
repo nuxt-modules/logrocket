@@ -42,7 +42,7 @@
     "jest": "^26.2.2",
     "jsdom": "^16.4.0",
     "nuxt": "^2.14.1",
-    "standard-version": "^8.0.2"
+    "standard-version": "^9.0.0"
   },
   "dependencies": {
     "logrocket": "^1.0.10",
