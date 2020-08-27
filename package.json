@@ -41,11 +41,11 @@
     "eslint-plugin-vue": "^6.2.2",
     "jest": "^26.4.2",
     "jsdom": "^16.4.0",
-    "nuxt": "^2.14.3",
+    "nuxt": "^2.14.4",
     "standard-version": "^9.0.0"
   },
   "dependencies": {
-    "logrocket": "^1.0.11",
+    "logrocket": "^1.0.12",
     "logrocket-vuex": "^0.0.3"
   }
 }
