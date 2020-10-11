@@ -5081,10 +5081,10 @@ eslint-visitor-keys@^2.0.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-2.0.0.tgz#21fdc8fbcd9c795cc0321f0563702095751511a8"
   integrity sha512-QudtT6av5WXels9WjIM7qz1XD1cWGvX4gGXvp/zBn9nXG02D0utdU3Em2m/QjTnrsk6bBjmCygl3rmj118msQQ==
 
-eslint@^7.10.0:
-  version "7.10.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.10.0.tgz#494edb3e4750fb791133ca379e786a8f648c72b9"
-  integrity sha512-BDVffmqWl7JJXqCjAK6lWtcQThZB/aP1HXSH1JKwGwv0LQEdvpR7qzNrUT487RM39B5goWuboFad5ovMBmD8yA==
+eslint@^7.11.0:
+  version "7.11.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.11.0.tgz#aaf2d23a0b5f1d652a08edacea0c19f7fadc0b3b"
+  integrity sha512-G9+qtYVCHaDi1ZuWzBsOWo2wSwd70TXnU6UHA3cTYHp7gCTXZcpggWFoUVAMRarg68qtPoNfFbzPh+VdOgmwmw==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@eslint/eslintrc" "^0.1.3"
@@ -5096,7 +5096,7 @@ eslint@^7.10.0:
     enquirer "^2.3.5"
     eslint-scope "^5.1.1"
     eslint-utils "^2.1.0"
-    eslint-visitor-keys "^1.3.0"
+    eslint-visitor-keys "^2.0.0"
     espree "^7.3.0"
     esquery "^1.2.0"
     esutils "^2.0.2"
@@ -7675,10 +7675,10 @@ logrocket-vuex@^0.0.3:
   resolved "https://registry.yarnpkg.com/logrocket-vuex/-/logrocket-vuex-0.0.3.tgz#e11d65d384f0c9fdac72f984436cc038adf3db90"
   integrity sha1-4R1l04Twyf2scvmEQ2zAOK3z25A=
 
-logrocket@^1.0.13:
-  version "1.0.13"
-  resolved "https://registry.yarnpkg.com/logrocket/-/logrocket-1.0.13.tgz#5977f8df794f850b7d0ea5c374f397c8ec2553fd"
-  integrity sha512-zaXdPuVa3Eamw5MZ3R4DtESJulxDZr/2asE+pEChJ8L7gDc8H+zehLZF9b8tS33jMqaNztxXbZY9KWkVm5+Z6g==
+logrocket@^1.0.14:
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/logrocket/-/logrocket-1.0.14.tgz#afe61a6b993691a706154e83fe2c05e8174a650d"
+  integrity sha512-notwwiIiXOmWSKQDsW8UrFJPu81u9rd6YaIFBmx6uF0XtXXwNQ+Mvteh5WHdABWcQ2nN4I7QkQrCAocYDx7OVg==
 
 loose-envify@^1.0.0:
   version "1.4.0"
