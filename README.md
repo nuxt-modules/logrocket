@@ -49,6 +49,23 @@ npm install nuxt-logrocket --save
 }
 ```
 
+## For Typescript users
+
+Add the types to your `"types"` array in `tsconfig.json` after the `@nuxt/types` entry.
+
+### tsconfig.json
+
+```json
+{
+  "compilerOptions": {
+    "types": [
+      "@nuxt/types",
+      "nuxt-logrocket"
+    ]
+  }
+}
+```
+
 ## Options
 
 Options can be passed using either environment variables or `logRocket` section in `nuxt.config.js`.

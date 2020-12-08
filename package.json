@@ -6,9 +6,15 @@
   "contributors": [
     {
       "name": "Farzad Soltani <farzad.au@gmail.com>"
+    },
+    {
+      "name": "Masayuki Tsuji",
+      "email": "tu.kun.0220@gmail.com",
+      "url": "https://irad.site"
     }
   ],
   "main": "lib/module.js",
+  "types": "index.d.ts",
   "repository": "https://github.com/nuxt-community/nuxt-logrocket",
   "publishConfig": {
     "access": "public"
