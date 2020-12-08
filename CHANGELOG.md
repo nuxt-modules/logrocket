@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/nuxt-community/nuxt-logrocket/compare/v1.2.11...v1.3.0) (2020-12-08)
+
+
+### Features
+
+* add typescript support. ([0265c70](https://github.com/nuxt-community/nuxt-logrocket/commit/0265c704f20cb44fe7865967228eaaee55399d1a))
+
 ### [1.2.11](https://github.com/nuxt-community/nuxt-logrocket/compare/v1.2.10...v1.2.11) (2020-06-16)
 
 ### [1.2.10](https://github.com/nuxt-community/nuxt-logrocket/compare/v1.2.9...v1.2.10) (2020-05-06)
