@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/nuxt-community/nuxt-logrocket/compare/v1.3.0...v1.4.0) (2020-12-09)
+
+
+### Features
+
+* integrate with @nuxtjs/sentry module ([8603f41](https://github.com/nuxt-community/nuxt-logrocket/commit/8603f411927477c406a2c21e0c0d8ac34405e8c6))
+
 ## [1.3.0](https://github.com/nuxt-community/nuxt-logrocket/compare/v1.2.11...v1.3.0) (2020-12-08)
 
 
