@@ -49,7 +49,7 @@ npm install nuxt-logrocket --save
 }
 ```
 
-## For Typescript users
+## For Typescript Users
 
 Add the types to your `"types"` array in `tsconfig.json` after the `@nuxt/types` entry.
 
@@ -66,6 +66,26 @@ Add the types to your `"types"` array in `tsconfig.json` after the `@nuxt/types`
 }
 ```
 
+## Integration with Official Sentry Module
+
+If you're using the [`@nuxtjs/sentry`](https://github.com/nuxt-community/sentry-module) module, this module will automatically add a LogRocket session recording URL to every Sentry exception report.
+
+Note that in order to have this work correctly, you must add `@nuxtjs/sentry` with a higher priority in your `nuxt.config.js` file. For example:
+
+```js
+{
+  modules: [
+    ...
+    '@nuxtjs/sentry',
+    ...
+    'nuxt-logrocket'
+    ...
+  ]
+}
+```
+
+You can read more about this integration [here](https://docs.logrocket.com/docs/sentry).
+
 ## Options
 
 Options can be passed using either environment variables or `logRocket` section in `nuxt.config.js`.
@@ -75,11 +95,13 @@ Setting a value for the required `logRocketId` option is enough in most cases.
 
 - Type: `String`
   - Default: `process.env.LOGROCKET_ID || ''`
+  - Required: `True`
 
 ### devModeAllowed
 
 - Type: `Boolean`
   - Default: `process.env.LOGROCKET_DEV_MODE_ALLOWED || false`
+  - Required: `False`
 
 
 ## Usage
