@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/nuxt-community/nuxt-logrocket/compare/v1.4.0...v1.5.0) (2020-12-09)
+
+
+### Features
+
+* add support for LogRocket init() config ([d3699cc](https://github.com/nuxt-community/nuxt-logrocket/commit/d3699ccd6c8cdd182830bebb71687951b49210a8))
+
 ## [1.4.0](https://github.com/nuxt-community/nuxt-logrocket/compare/v1.3.0...v1.4.0) (2020-12-09)
 
 
