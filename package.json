@@ -51,6 +51,7 @@
     "standard-version": "^9.0.0"
   },
   "dependencies": {
+    "deepmerge": "^4.2.2",
     "logrocket": "^1.0.14",
     "logrocket-vuex": "^0.0.3"
   }

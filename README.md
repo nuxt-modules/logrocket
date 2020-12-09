@@ -43,8 +43,12 @@ npm install nuxt-logrocket --save
   ],
 
   logRocket: {
+    // configure LogRocket
     logRocketId: '',
     devModeAllowed: false,
+    config: {
+      //
+    }
   }
 }
 ```
@@ -91,18 +95,55 @@ You can read more about this integration [here](https://docs.logrocket.com/docs/
 Options can be passed using either environment variables or `logRocket` section in `nuxt.config.js`.
 Setting a value for the required `logRocketId` option is enough in most cases.
 
-### logRocketId
+Below is the complete list of options:
 
-- Type: `String`
-  - Default: `process.env.LOGROCKET_ID || ''`
-  - Required: `True`
+| Option | Type | Default | Required | Environment Variable |
+| :-- | :-- | :-- | :-- | :-- |
+| logRocketId | `String` | `''` | True | `process.env.LOGROCKET_ID` |
+| devModeAllowed | `Boolean` | `false` | False | `process.env.LOGROCKET_DEV_MODE_ALLOWED` |
+| release | `String` | `null` | False | `process.env.LOGROCKET_RELEASE` |
+| consoleEnabled | `Boolean` | `true` | False | `process.env.LOGROCKET_CONSOLE` |
+| networkEnabled | `Boolean` | `true` | False | `process.env.LOGROCKET_NETWORK` |
+| networkRequestSanitizer | `Function` | - | False | - |
+| networkResponseSanitizer | `Function` | - | False | - |
+| domEnabled | `Boolean` | `true` | False | `process.env.LOGROCKET_DOM_ENABLED` |
+| inputSanitizer | `Boolean` | `false` | False | `process.env.LOGROCKET_INPUT_SANITIZER` |
+| textSanitizer | `Boolean` | `false` | False | `process.env.LOGROCKET_TEXT_SANITIZER` |
+| baseHref | `String` | `null` | False | `process.env.LOGROCKET_BASE_HREF` |
+| shouldCaptureIP | `Boolean` | `true` | False | `process.env.LOGROCKET_SHOULD_CAPTURE_IP` |
+| rootHostname | `String` | `null` | False | `process.env.LOGROCKET_ROOT_HOSTNAME` |
+| shouldDebugLog | `Boolean` | `true` | False | `process.env.LOGROCKET_SHOULD_DEBUG_LOG` |
+| mergeIframes | `Boolean` | `false` | False | `process.env.LOGROCKET_MERGE_IFRAMES` |
 
-### devModeAllowed
+This is an example containing the default values for the options:
 
-- Type: `Boolean`
-  - Default: `process.env.LOGROCKET_DEV_MODE_ALLOWED || false`
-  - Required: `False`
-
+```js
+{
+  logRocketId: '',
+  devModeAllowed: false,
+  config: {
+    release: null,
+    console: {
+      isEnabled: true
+    },
+    network: {
+      isEnabled: true,
+      networkRequestSanitizer: () => {},
+      networkResponseSanitizer: () => {}
+    },
+    dom: {
+      isEnabled: true,
+      inputSanitizer: false,
+      textSanitizer: false,
+      baseHref: null
+    },
+    shouldCaptureIP: true,
+    rootHostname: null,
+    shouldDebugLog: true,
+    mergeIframes: false
+  }
+}
+```
 
 ## Usage
 
