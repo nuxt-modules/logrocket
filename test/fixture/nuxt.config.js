@@ -7,5 +7,12 @@ module.exports = {
   dev: false,
   render: {
     resourceHints: false
+  },
+  modules: [
+    '../../lib/module.js'
+  ],
+  logRocket: {
+    logRocketId: 'ENTER_YOUR_ID_HERE',
+    devModeAllowed: true
   }
 }
