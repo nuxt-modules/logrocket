@@ -29,7 +29,8 @@
     "lib/templates/*.*"
   ],
   "files": [
-    "lib"
+    "lib",
+    "index.d.ts"
   ],
   "jest": {
     "testEnvironment": "node",
