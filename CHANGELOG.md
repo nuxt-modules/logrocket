@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.5.2](https://github.com/nuxt-community/nuxt-logrocket/compare/v1.5.1...v1.5.2) (2020-12-11)
+
+
+### Bug Fixes
+
+* handle non existant config ([79b2c6d](https://github.com/nuxt-community/nuxt-logrocket/commit/79b2c6d16f9f8facb0118474cb16b3e7f3e0e69e))
+
 ### [1.5.1](https://github.com/nuxt-community/nuxt-logrocket/compare/v1.5.0...v1.5.1) (2020-12-11)
 
 ## [1.5.0](https://github.com/nuxt-community/nuxt-logrocket/compare/v1.4.0...v1.5.0) (2020-12-09)
