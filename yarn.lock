@@ -8111,10 +8111,10 @@ logrocket-vuex@^0.0.3:
   resolved "https://registry.yarnpkg.com/logrocket-vuex/-/logrocket-vuex-0.0.3.tgz#e11d65d384f0c9fdac72f984436cc038adf3db90"
   integrity sha1-4R1l04Twyf2scvmEQ2zAOK3z25A=
 
-logrocket@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/logrocket/-/logrocket-1.1.0.tgz#217615aae0ef2e7cf3df3f11a7db757c10b6299f"
-  integrity sha512-G0nzd6pqKlnncnLc7R9x23GBjKiiC/3nort3FIhwWS0byxePlBQSr6xgpePBo7Ohra/ZvidTK89Iii0vI6pKkg==
+logrocket@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/logrocket/-/logrocket-1.2.0.tgz#eda798f38ab9f1b7279944d4701cbe19e1c1645e"
+  integrity sha512-HjYP4QstXT6+VynVpY7K6xcMj5RjbW7jdYj1iybcskM53jqSnKmCxf8Gov9SirhaKjGlOTJ1Zquoj27M/E4QZQ==
 
 loud-rejection@^1.0.0:
   version "1.6.0"
