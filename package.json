@@ -45,8 +45,8 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-standard": "^4.1.0",
-    "eslint-plugin-vue": "^7.9.0",
-    "jest": "^27.0.0",
+    "eslint-plugin-vue": "^7.10.0",
+    "jest": "^27.0.1",
     "jsdom": "^16.6.0",
     "nuxt": "^2.15.6",
     "request": "^2.88.2",
@@ -55,7 +55,7 @@
   },
   "dependencies": {
     "deepmerge": "^4.2.2",
-    "logrocket": "^1.2.1",
+    "logrocket": "^1.2.2",
     "logrocket-vuex": "^0.0.3"
   }
 }

@@ -4338,10 +4338,10 @@ eslint-plugin-standard@^4.1.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-standard/-/eslint-plugin-standard-4.1.0.tgz#0c3bf3a67e853f8bbbc580fb4945fbf16f41b7c5"
   integrity sha512-ZL7+QRixjTR6/528YNGyDotyffm5OQst/sGxKDwGb9Uqs4In5Egi4+jbobhqJoyoCM6/7v/1A5fhQ7ScMtDjaQ==
 
-eslint-plugin-vue@^7.9.0:
-  version "7.9.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-7.9.0.tgz#f8e83a2a908f4c43fc8304f5401d4ff671f3d560"
-  integrity sha512-2Q0qQp5+5h+pZvJKCbG1/jCRUYrdgAz5BYKGyTlp2NU8mx09u3Hp7PsH6d5qef6ojuPoCXMnrbbDxeoplihrSw==
+eslint-plugin-vue@^7.10.0:
+  version "7.10.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-7.10.0.tgz#251749aa99e089e085275f011042c6e74189f89a"
+  integrity sha512-xdr6e4t/L2moRAeEQ9HKgge/hFq+w9v5Dj+BA54nTAzSFdUyKLiSOdZaRQjCHMY0Pk2WaQBFH9QiWG60xiC+6A==
   dependencies:
     eslint-utils "^2.1.0"
     natural-compare "^1.4.0"
@@ -6364,7 +6364,7 @@ jest-worker@^27.0.1:
     merge-stream "^2.0.0"
     supports-color "^8.0.0"
 
-jest@^27.0.0:
+jest@^27.0.1:
   version "27.0.1"
   resolved "https://registry.yarnpkg.com/jest/-/jest-27.0.1.tgz#d3822f0904f3bbe884bea393cede2be2aa290d0e"
   integrity sha512-lFEoUdXjbGAIxk/gZhcv98xOaH1hjqG5R/PQHs5GBfIK5iL3tnXCjHQf4HQLVZZ2rcXML3oeVg9+XrRZbooBdQ==
@@ -6746,10 +6746,10 @@ logrocket-vuex@^0.0.3:
   resolved "https://registry.yarnpkg.com/logrocket-vuex/-/logrocket-vuex-0.0.3.tgz#e11d65d384f0c9fdac72f984436cc038adf3db90"
   integrity sha1-4R1l04Twyf2scvmEQ2zAOK3z25A=
 
-logrocket@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/logrocket/-/logrocket-1.2.1.tgz#a46d017802d609991bcdf8d0346bbd582d1c2181"
-  integrity sha512-Tkl5OF3Bvt04k3P2SBKrDXFldm4bFeCEAkg+m1oyaZT31wHlcuch1xXU57at77ptRIXtehROPJw3R0fvTviRhw==
+logrocket@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/logrocket/-/logrocket-1.2.2.tgz#3b25396ee17b166b4abb91faaa835e9fdb2bedab"
+  integrity sha512-y6c/w/te7fDei9VonjmXDhJKjFNBb5Loomq0cSSDyJKDngJF4q5S0NFa1PToSAaxUW+ccm3PTKsKXBk+PfrEdA==
 
 loud-rejection@^1.0.0:
   version "1.6.0"
