@@ -40,13 +40,13 @@
     "codecov": "^3.8.2",
     "eslint": "^7.27.0",
     "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-jest": "^24.3.6",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-standard": "^4.1.0",
     "eslint-plugin-vue": "^7.10.0",
-    "jest": "^27.0.2",
+    "jest": "^27.0.3",
     "jsdom": "^16.6.0",
     "nuxt": "^2.15.6",
     "request": "^2.88.2",
@@ -55,7 +55,7 @@
   },
   "dependencies": {
     "deepmerge": "^4.2.2",
-    "logrocket": "^1.2.2",
+    "logrocket": "^1.2.3",
     "logrocket-vuex": "^0.0.3"
   }
 }
