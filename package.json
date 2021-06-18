@@ -48,7 +48,7 @@
     "eslint-plugin-vue": "^7.11.1",
     "jest": "^27.0.4",
     "jsdom": "^16.6.0",
-    "nuxt": "^2.15.6",
+    "nuxt": "^2.15.7",
     "request": "^2.88.2",
     "request-promise-native": "^1.0.9",
     "standard-version": "^9.3.0"
