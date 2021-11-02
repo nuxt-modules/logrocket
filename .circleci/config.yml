@@ -1,6 +1,6 @@
 machine:
   node:
-    version: v8.10.0
+    version: v14.18.1
 
 version: 2
 jobs:
