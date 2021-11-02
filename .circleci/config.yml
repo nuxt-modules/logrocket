@@ -7,7 +7,7 @@ jobs:
   build:
     working_directory: ~/project
     docker:
-      - image: circleci/node:latest
+      - image: circleci/node:v14.18.1
     steps:
       # Checkout repository
       - checkout
