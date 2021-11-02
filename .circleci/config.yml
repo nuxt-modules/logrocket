@@ -1,13 +1,13 @@
 machine:
   node:
-    version: v14.18.1
+    version: v8.10.0
 
 version: 2
 jobs:
   build:
     working_directory: ~/project
     docker:
-      - image: circleci/node:v14.18.1
+      - image: circleci/node:latest
     steps:
       # Checkout repository
       - checkout
