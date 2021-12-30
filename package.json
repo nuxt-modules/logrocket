@@ -55,7 +55,7 @@
   },
   "dependencies": {
     "deepmerge": "^4.2.2",
-    "logrocket": "^2.1.2",
+    "logrocket": "^2.1.3",
     "logrocket-vuex": "^0.0.3"
   }
 }
