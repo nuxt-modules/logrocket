@@ -17,7 +17,8 @@
 
 ## Features
 
-- Supports `logrocket-vuex` plugin integration by default
+- Nuxt 3 & Nuxt Bridge
+- Supports [Pinia](https://pinia.vuejs.org) integration
 - Ability to run in development mode
 
 ## Setup
@@ -34,93 +35,57 @@ OR
 npm install nuxt-logrocket --save
 ```
 
-- Add `nuxt-logrocket` to the `modules` section of your `nuxt.config.js` file
+- Add `nuxt-logrocket` to the `modules` section of your `nuxt.config.ts` file
 
-```js
-{
-  modules: [
-    'nuxt-logrocket',
-  ],
+```ts
+import { defineNuxtConfig } from 'nuxt'
+
+export default defineNuxtConfig({
+  modules: ['nuxt-logrocket'],
 
   logRocket: {
-    // configure LogRocket
-    logRocketId: '',
-    devModeAllowed: false,
+    id: '',
+    dev: false,
     config: {
       //
     }
   }
-}
+})
 ```
-
-## For Typescript Users
-
-Add the types to your `"types"` array in `tsconfig.json` after the `@nuxt/types` entry.
-
-### tsconfig.json
-
-```json
-{
-  "compilerOptions": {
-    "types": [
-      "@nuxt/types",
-      "nuxt-logrocket"
-    ]
-  }
-}
-```
-
-## Integration with Official Sentry Module
-
-If you're using the [`@nuxtjs/sentry`](https://github.com/nuxt-community/sentry-module) module, this module will automatically add a LogRocket session recording URL to every Sentry exception report.
-
-Note that in order to have this work correctly, you must add `@nuxtjs/sentry` with a higher priority in your `nuxt.config.js` file. For example:
-
-```js
-{
-  modules: [
-    ...
-    '@nuxtjs/sentry',
-    ...
-    'nuxt-logrocket'
-    ...
-  ]
-}
-```
-
-You can read more about this integration [here](https://docs.logrocket.com/docs/sentry).
 
 ## Options
 
-Options can be passed using either environment variables or `logRocket` section in `nuxt.config.js`.
-Setting a value for the required `logRocketId` option is enough in most cases.
+Options can be passed using either [Runtime Config](https://v3.nuxtjs.org/guide/features/runtime-config/#environment-variables) or the `logRocket` section in `nuxt.config.ts`.
+Setting a value for the required `id` option is enough in most cases.
 
 Below is the complete list of options:
 
-| Option | Type | Default | Required | Environment Variable |
-| :-- | :-- | :-- | :-- | :-- |
-| logRocketId | `String` | `''` | True | `process.env.LOGROCKET_ID` |
-| devModeAllowed | `Boolean` | `false` | False | `process.env.LOGROCKET_DEV_MODE_ALLOWED` |
-| release | `String` | `null` | False | `process.env.LOGROCKET_RELEASE` |
-| consoleEnabled | `Boolean` | `true` | False | `process.env.LOGROCKET_CONSOLE` |
-| networkEnabled | `Boolean` | `true` | False | `process.env.LOGROCKET_NETWORK` |
-| networkRequestSanitizer | `Function` | - | False | - |
-| networkResponseSanitizer | `Function` | - | False | - |
-| domEnabled | `Boolean` | `true` | False | `process.env.LOGROCKET_DOM_ENABLED` |
-| inputSanitizer | `Boolean` | `false` | False | `process.env.LOGROCKET_INPUT_SANITIZER` |
-| textSanitizer | `Boolean` | `false` | False | `process.env.LOGROCKET_TEXT_SANITIZER` |
-| baseHref | `String` | `null` | False | `process.env.LOGROCKET_BASE_HREF` |
-| shouldCaptureIP | `Boolean` | `true` | False | `process.env.LOGROCKET_SHOULD_CAPTURE_IP` |
-| rootHostname | `String` | `null` | False | `process.env.LOGROCKET_ROOT_HOSTNAME` |
-| shouldDebugLog | `Boolean` | `true` | False | `process.env.LOGROCKET_SHOULD_DEBUG_LOG` |
-| mergeIframes | `Boolean` | `false` | False | `process.env.LOGROCKET_MERGE_IFRAMES` |
+| Option | Type | Default | Required |
+| :-- | :-- | :-- | :-- |
+| id | `String` | `''` | True |
+| dev | `Boolean` | `true` | False |
+| enablePinia | `Boolean` | `true` | False |
+| release | `String` | `null` | False |
+| consoleEnabled | `Boolean` | `true` | False |
+| networkEnabled | `Boolean` | `true` | False |
+| networkRequestSanitizer | `Function` | - | False |
+| networkResponseSanitizer | `Function` | - | False |
+| domEnabled | `Boolean` | `true` | False |
+| inputSanitizer | `Boolean` | `false` | False |
+| textSanitizer | `Boolean` | `false` | False |
+| baseHref | `String` | `null` | False |
+| shouldCaptureIP | `Boolean` | `true` | False |
+| rootHostname | `String` | `null` | False |
+| shouldDebugLog | `Boolean` | `true` | False |
+| mergeIframes | `Boolean` | `false` | False |
 
 This is an example containing the default values for the options:
 
-```js
+```ts
 {
-  logRocketId: '',
-  devModeAllowed: false,
+  id: '',
+  dev: true,
+  enablePinia: true,
   config: {
     release: null,
     console: {
@@ -151,21 +116,30 @@ LogRocket gets automatically injected into your application when it is setup cor
 
 In order to use LogRocket's injected functionality in your application, you can use :
 
-```js
-this.$logRocket
+```ts
+const { $logRocket } = useNuxtApp()
 ```
-
-in your components or :
-
-```js
-app.$logRocket
-```
-
-in plugins.
-
-If Vuex store is initialized, LogRocket Vuex plugin will be automatically registered.
 
 Visit LogRocket's website for a full list of features : [Docs](https://docs.logrocket.com/docs)
+
+### Pinia
+
+This module automatically detects [Pinia](https://pinia.vuejs.org) store mutations and attaches them to the LogRocket session.
+
+This functionality is enabled by **default**, and can be disabled by setting the `enablePinia` options to `false`.
+
+```ts
+import { defineNuxtConfig } from 'nuxt'
+
+export default defineNuxtConfig({
+  modules: ['nuxt-logrocket'],
+
+  logRocket: {
+    id: '',
+    enablePinia: false
+  }
+})
+```
 
 ## Development
 
