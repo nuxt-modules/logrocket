@@ -1,4 +1,4 @@
-import { defineNuxtConfig } from 'nuxt'
+import { defineNuxtConfig } from 'nuxt/config'
 import NuxtLogRocket from '..'
 
 export default defineNuxtConfig({
