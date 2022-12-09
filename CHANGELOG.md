@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/nuxt-community/nuxt-logrocket/compare/v1.5.2...v2.0.0) (2022-12-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* `logRocketId` has been renamed to `id`.
+* `devModeAllowed` has been renamed to `dev`.
+* Environment variables are now handled by the runtime config.
+
+### Bug Fixes
+
+* **circle-ci:** bump node version ([#319](https://github.com/nuxt-community/nuxt-logrocket/issues/319)) ([94c9180](https://github.com/nuxt-community/nuxt-logrocket/commit/94c91800faa9fbc7c5937adcf64310dae4584b8a))
+
+
+* Support Nuxt 3 & Bridge ([39be7be](https://github.com/nuxt-community/nuxt-logrocket/commit/39be7be2dc8f20cc7dd64ab6725d609ff660d5b9))
+
 ### [1.5.2](https://github.com/nuxt-community/nuxt-logrocket/compare/v1.5.1...v1.5.2) (2020-12-11)
 
 
