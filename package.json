@@ -1,6 +1,6 @@
 {
   "name": "nuxt-logrocket",
-  "version": "1.5.2",
+  "version": "2.0.0",
   "description": "LogRocket module for Nuxt.js",
   "license": "MIT",
   "contributors": [
@@ -13,49 +13,46 @@
       "url": "https://irad.site"
     }
   ],
-  "main": "lib/module.js",
-  "types": "index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/module.mjs",
+      "require": "./dist/module.cjs"
+    }
+  },
+  "main": "./dist/module.cjs",
+  "types": "./dist/types.d.ts",
+  "files": [
+    "dist"
+  ],
   "repository": "https://github.com/nuxt-community/nuxt-logrocket",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "dev": "nuxt test/fixture",
-    "lint": "eslint lib test",
-    "test": "npm run lint && jest",
+    "prepack": "yarn build",
+    "build": "nuxt-module-build",
+    "dev": "nuxi dev playground",
+    "dev:build": "nuxi build playground",
+    "prepare": "nuxt-module-build --stub && nuxi prepare playground",
+    "test": "yarn prepare && vitest run test",
+    "lint": "eslint --ext .js,.ts,.vue .",
+    "lint:fix": "eslint --fix --ext .js,.ts,.vue .",
     "release": "standard-version && git push --follow-tags && npm publish"
   },
-  "eslintIgnore": [
-    "lib/templates/*.*"
-  ],
-  "files": [
-    "lib",
-    "index.d.ts"
-  ],
-  "jest": {
-    "testEnvironment": "node",
-    "collectCoverage": true
+  "dependencies": {
+    "@nuxt/kit": "^3.0.0-rc.4",
+    "defu": "^6.0.0",
+    "logrocket": "^3.0.1"
   },
   "devDependencies": {
+    "@nuxt/module-builder": "latest",
+    "@nuxt/test-utils": "npm:@nuxt/test-utils-edge@latest",
+    "@nuxtjs/eslint-config-typescript": "latest",
     "codecov": "^3.8.3",
-    "eslint": "^8.29.0",
-    "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jest": "^26.9.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-standard": "^4.1.0",
-    "eslint-plugin-vue": "^9.8.0",
-    "jest": "^28.1.3",
-    "jsdom": "^20.0.3",
-    "nuxt": "^2.15.8",
-    "request": "^2.88.2",
-    "request-promise-native": "^1.0.9",
-    "standard-version": "^9.3.2"
-  },
-  "dependencies": {
-    "deepmerge": "^4.2.2",
-    "logrocket": "^3.0.1",
-    "logrocket-vuex": "^0.0.3"
+    "eslint": "^8.18.0",
+    "nuxt": "^3.0.0-rc.4",
+    "standard-version": "^9.3.2",
+    "vitest": "^0.15.1"
   }
 }
