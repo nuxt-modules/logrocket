@@ -7,7 +7,7 @@ jobs:
   build:
     working_directory: ~/project
     docker:
-      - image: node:latest
+      - image: node:18.12.1
     steps:
       # Checkout repository
       - checkout
