@@ -8,7 +8,6 @@
 [![npm](https://img.shields.io/npm/dt/nuxt-logrocket.svg?style=flat-square)](https://npmjs.com/package/nuxt-logrocket)
 [![CircleCI](https://img.shields.io/circleci/project/github/nuxt-community/nuxt-logrocket.svg?style=flat-square)](https://circleci.com/gh/nuxt-community/nuxt-logrocket)
 [![Codecov](https://img.shields.io/codecov/c/github/nuxt-community/nuxt-logrocket.svg?style=flat-square)](https://codecov.io/gh/nuxt-community/nuxt-logrocket)
-[![Dependencies](https://david-dm.org/nuxt-community/nuxt-logrocket/status.svg?style=flat-square)](https://david-dm.org/nuxt-community/nuxt-logrocket)
 [![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com)
 
 > LogRocket module for Nuxt.js
@@ -144,8 +143,8 @@ export default defineNuxtConfig({
 ## Development
 
 - Clone this repository
-- Install dependencies using `yarn install` or `npm install`
-- Start development server using `yarn run dev` or `npm run dev`
+- Install dependencies using `yarn install`
+- Start development server using `yarn run dev`
 - Point your browser to `http://localhost:3000`
 
 ## License
