@@ -1,5 +1,11 @@
 import { defu } from 'defu'
-import { isNuxt3, addPlugin, useLogger, createResolver, defineNuxtModule } from '@nuxt/kit'
+import {
+  isNuxt3,
+  addPlugin,
+  useLogger,
+  createResolver,
+  defineNuxtModule
+} from '@nuxt/kit'
 import { name, version } from '../package.json'
 
 const logger = useLogger('nuxt-logrocket')
@@ -29,71 +35,73 @@ type ModuleOptions = {
    * @type {object}
    * */
   config?: {
-    release?: string,
+    release?: string;
     console?: {
-      isEnabled?: boolean | {
-        log?: boolean,
-        info?: boolean,
-        debug?: boolean,
-        warn?: boolean,
-        error?: boolean
-      },
-      shouldAggregateConsoleErrors?: boolean,
-    },
+      isEnabled?:
+        | boolean
+        | {
+            log?: boolean;
+            info?: boolean;
+            debug?: boolean;
+            warn?: boolean;
+            error?: boolean;
+          };
+      shouldAggregateConsoleErrors?: boolean;
+    };
     network?: {
-      isEnabled?: boolean,
-    },
+      isEnabled?: boolean;
+    };
     dom?: {
-      isEnabled?: boolean,
-      baseHref?: string,
-      textSanitizer?: boolean | string,
-      inputSanitizer?: boolean | string,
-      privateAttributeBlocklist?: string[],
-    },
+      isEnabled?: boolean;
+      baseHref?: string;
+      textSanitizer?: boolean | string;
+      inputSanitizer?: boolean | string;
+      privateAttributeBlocklist?: string[];
+    };
 
     /** Controls collection of IP addresses and related features, such as GeoIP */
-    shouldCaptureIP?: boolean,
+    shouldCaptureIP?: boolean;
 
     /**
-      * Enable sharing sessions across subdomains by setting this to the top-level hostname.
-      * */
-    rootHostname?: string,
+     * Enable sharing sessions across subdomains by setting this to the top-level hostname.
+     * */
+    rootHostname?: string;
 
     /**
      * Convenience option for configuring the SDK for an on-prem install.
      * Include the protocol (eg. https://ingest.example.com)
      * */
-    ingestServer?: string,
+    ingestServer?: string;
 
     /**
      * Convenience option for configuring
      * where the full SDK should be loaded from for on-prem installs
      * */
-    sdkServer?: string,
+    sdkServer?: string;
 
-    uploadTimeInterval?: number,
+    uploadTimeInterval?: number;
 
-    shouldDebugLog?: boolean,
+    shouldDebugLog?: boolean;
 
-    mergeIframes?: boolean,
+    mergeIframes?: boolean;
 
     /**
      * Controls domains to which a parent window can post messages
      * in order to merge recording with cross-domain iframes
      * */
-    childDomains?: string[] | null,
+    childDomains?: string[] | null;
 
     /**
      * Controls domain to which an iframe window can post messages
      * in order to merge recording with a cross-domain parent window
      * */
-    parentDomain?: string | null,
+    parentDomain?: string | null;
 
-    shouldAugmentNPS?: boolean,
+    shouldAugmentNPS?: boolean;
 
-    shouldParseXHRBlob?: boolean,
+    shouldParseXHRBlob?: boolean;
   };
-}
+};
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
@@ -125,10 +133,13 @@ export default defineNuxtModule<ModuleOptions>({
     }
   }),
   setup (opts, nuxt) {
-    const options = defu<ModuleOptions, any>(isNuxt3()
-      ? nuxt.options.runtimeConfig.public?.logRocket
-      : nuxt.options.publicRuntimeConfig.logRocket || {},
-    opts)
+    const options = defu<ModuleOptions, any>(
+      isNuxt3()
+        ? nuxt.options.runtimeConfig.public?.logRocket
+        // @ts-ignore
+        : nuxt.options.publicRuntimeConfig.logRocket || {},
+      opts
+    )
 
     if (isNuxt3()) {
       // @ts-ignore
