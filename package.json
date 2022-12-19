@@ -50,9 +50,9 @@
     "@nuxt/test-utils": "npm:@nuxt/test-utils-edge@latest",
     "@nuxtjs/eslint-config-typescript": "latest",
     "codecov": "^3.8.3",
-    "eslint": "^8.29.0",
+    "eslint": "^8.30.0",
     "nuxt": "^3.0.0",
     "standard-version": "^9.3.2",
-    "vitest": "^0.25.7"
+    "vitest": "^0.26.0"
   }
 }
