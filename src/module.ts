@@ -157,7 +157,7 @@ export default defineNuxtModule<ModuleOptions>({
       logger.info('LogRocket pinia mode enabled.')
     }
 
-    addPlugin(resolve('runtime/plugin.client.ts'))
+    addPlugin(resolve('runtime/plugin.client'))
   }
 })
 
