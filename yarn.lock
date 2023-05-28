@@ -4201,10 +4201,10 @@ log-symbols@^5.1.0:
     chalk "^5.0.0"
     is-unicode-supported "^1.1.0"
 
-logrocket@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/logrocket/-/logrocket-3.0.1.tgz#c746e8df3d5fee999b152975e51db1908357a6f0"
-  integrity sha512-jOWG+jEzobKVxGytzZ+4KGm2kiMQMRTHab2uDWQyVZcHfEF38BlCH1yjQVY4LCmuQUwZitP9biMzJZnyUQ0dtQ==
+logrocket@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/logrocket/-/logrocket-4.0.2.tgz#73c2d903ff8e948a8fd712d04bc217055e591d49"
+  integrity sha512-H3fhSUkjf2rkcBulleNq4CDHGx2moA+rSNdwg5AZBoKk7Us1Erjg20K1CBYOjYm5ttHTvYY+kW4mtj4wMMZmcQ==
 
 loupe@^2.3.1:
   version "2.3.6"
