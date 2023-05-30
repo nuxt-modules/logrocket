@@ -35,17 +35,17 @@
     "release": "yarn lint && yarn test && yarn prepack && standard-version && git push --follow-tags && npm publish"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.0.0",
-    "defu": "^6.1.1",
+    "@nuxt/kit": "^3.5.2",
+    "defu": "^6.1.2",
     "logrocket": "^4.0.2"
   },
   "devDependencies": {
     "@nuxt/module-builder": "^0.4.0",
-    "@nuxt/test-utils": "^3.5.1",
+    "@nuxt/test-utils": "^3.5.2",
     "@nuxtjs/eslint-config-typescript": "latest",
-    "eslint": "^8.31.0",
-    "nuxt": "^3.0.0",
+    "eslint": "^8.41.0",
+    "nuxt": "^3.5.2",
     "standard-version": "^9.3.2",
-    "vitest": "^0.27.1"
+    "vitest": "^0.31.2"
   }
 }
