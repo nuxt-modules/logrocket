@@ -1,6 +1,6 @@
 {
   "name": "nuxt-logrocket",
-  "version": "2.0.5",
+  "version": "2.0.4",
   "description": "LogRocket module for Nuxt.js",
   "license": "MIT",
   "contributors": [
@@ -29,7 +29,7 @@
     "dev": "nuxi dev playground",
     "dev:build": "nuxi build playground",
     "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
-    "test": "vitest run test",
+    "test": "yarn dev:prepare && vitest run test",
     "lint": "eslint --ext .js,.ts,.vue .",
     "lint:fix": "eslint --fix --ext .js,.ts,.vue .",
     "release": "yarn lint && yarn test && yarn prepack && standard-version && git push --follow-tags && npm publish"
