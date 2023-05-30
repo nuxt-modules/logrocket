@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.5](https://github.com/nuxt-community/nuxt-logrocket/compare/v2.0.4...v2.0.5) (2023-05-30)
+
+
+### Bug Fixes
+
+* eslint errors ([ffeeb2a](https://github.com/nuxt-community/nuxt-logrocket/commit/ffeeb2a328725695f8ecae678f2e30655ea5beb6))
+* test script ([0d26991](https://github.com/nuxt-community/nuxt-logrocket/commit/0d26991cde44a3e9273e58e3107d9e0fa93c567e))
+
 ### [2.0.4](https://github.com/nuxt-community/nuxt-logrocket/compare/v2.0.3...v2.0.4) (2023-01-13)
 
 ### [2.0.3](https://github.com/nuxt-community/nuxt-logrocket/compare/v2.0.2...v2.0.3) (2023-01-13)
