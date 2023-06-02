@@ -46,6 +46,6 @@
     "eslint": "^8.41.0",
     "nuxt": "^3.5.2",
     "standard-version": "^9.3.2",
-    "vitest": "^0.31.3"
+    "vitest": "^0.31.4"
   }
 }
