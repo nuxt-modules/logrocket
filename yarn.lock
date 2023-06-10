@@ -4271,10 +4271,10 @@ log-symbols@^4.1.0:
     chalk "^4.1.0"
     is-unicode-supported "^0.1.0"
 
-logrocket@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/logrocket/-/logrocket-4.0.2.tgz#73c2d903ff8e948a8fd712d04bc217055e591d49"
-  integrity sha512-H3fhSUkjf2rkcBulleNq4CDHGx2moA+rSNdwg5AZBoKk7Us1Erjg20K1CBYOjYm5ttHTvYY+kW4mtj4wMMZmcQ==
+logrocket@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/logrocket/-/logrocket-4.0.3.tgz#49cd63ec3db8039ec36ddadc12e67eff1090fdc9"
+  integrity sha512-xtjGCjuB9hW+zVkTC1Pfp3woWXQS5vTXWEiMje2MpRPt63z7CgytUK70ACeBaWbsoWi3XhvTIN6E66ALmTxtBw==
 
 loupe@^2.3.1, loupe@^2.3.6:
   version "2.3.6"
