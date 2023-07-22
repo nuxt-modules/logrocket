@@ -1,4 +1,4 @@
-import { logRocket } from '#imports'
+import { logRocket } from 'logrocket'
 
 // type inference required to prevent TS4082 error for 'LR.LogRocket'
 interface NuxtLR { logRocket: Omit<typeof logRocket, 'init' | 'reduxMiddleware'>}

@@ -142,7 +142,7 @@ export default defineNuxtModule<ModuleOptions>({
       opts
     )
 
-    nuxt.options.alias.logrocket = 'logrocket'
+    nuxt.options.alias.logRocket = 'logRocket'
 
     if (isNuxt3()) {
       // @ts-ignore
@@ -161,12 +161,6 @@ export default defineNuxtModule<ModuleOptions>({
     }
 
     addPlugin(resolve('runtime/plugin.client'))
-
-    addImports({
-      name: 'default',
-      as: 'logRocket',
-      from: 'logrocket'
-    })
   }
 })
 
