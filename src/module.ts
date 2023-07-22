@@ -2,6 +2,7 @@ import { defu } from 'defu'
 import {
   isNuxt3,
   addPlugin,
+  addImports,
   useLogger,
   createResolver,
   defineNuxtModule
@@ -159,6 +160,12 @@ export default defineNuxtModule<ModuleOptions>({
     }
 
     addPlugin(resolve('runtime/plugin.client'))
+
+    addImports({
+      name: 'default',
+      as: 'logRocket',
+      from: 'logrocket'
+    })
   }
 })
 
