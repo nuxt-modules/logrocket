@@ -2,7 +2,6 @@ import { defu } from 'defu'
 import {
   isNuxt3,
   addPlugin,
-  addImports,
   useLogger,
   createResolver,
   defineNuxtModule
