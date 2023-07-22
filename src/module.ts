@@ -142,10 +142,11 @@ export default defineNuxtModule<ModuleOptions>({
       opts
     )
 
+    nuxt.options.alias.logrocket = 'logrocket'
+
     if (isNuxt3()) {
       // @ts-ignore
       nuxt.options.runtimeConfig.public.logRocket = options
-      nuxt.options.alias['nuxt-logrocket'] = 'nuxt-logrocket'
     } else {
       // @ts-ignore
       nuxt.options.publicRuntimeConfig.logRocket = options
