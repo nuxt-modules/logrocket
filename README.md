@@ -1,8 +1,6 @@
-<p align="center">
-<img src="./.assets/nuxt_LogRocket.png" width="300px" alt="nuxt-logrocket">
-</p>
+![nuxt-logrocket-social-card](https://github.com/nuxt-modules/logrocket/assets/904724/e8ee6381-899f-4a0c-87c2-290fd1cf98ea)
 
-# nuxt-logrocket
+# Nuxt LogRocket
 
 [![npm (scoped with tag)](https://img.shields.io/npm/v/nuxt-logrocket/latest.svg?style=flat-square)](https://npmjs.com/package/nuxt-logrocket)
 [![npm](https://img.shields.io/npm/dt/nuxt-logrocket.svg?style=flat-square)](https://npmjs.com/package/nuxt-logrocket)
@@ -10,7 +8,7 @@
 [![Codecov](https://img.shields.io/codecov/c/github/nuxt-community/nuxt-logrocket.svg?style=flat-square)](https://codecov.io/gh/nuxt-community/nuxt-logrocket)
 [![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com)
 
-> LogRocket module for Nuxt.js
+Session replays, product analytics and more for Nuxt apps.
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
@@ -22,16 +20,10 @@
 
 ## Setup
 
-- Add `nuxt-logrocket` dependency using yarn or npm to your project
+- Add `nuxt-logrocket` dependency to your project
 
 ```sh
-yarn add nuxt-logrocket
-```
-
-OR
-
-```sh
-npm install nuxt-logrocket --save
+npm i nuxt-logrocket
 ```
 
 - Add `nuxt-logrocket` to the `modules` section of your `nuxt.config.ts` file
