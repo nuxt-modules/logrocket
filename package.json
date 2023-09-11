@@ -1,7 +1,7 @@
 {
   "name": "nuxt-logrocket",
   "version": "2.0.14",
-  "description": "LogRocket module for Nuxt.js",
+  "description": "LogRocket module for Nuxt",
   "license": "MIT",
   "contributors": [
     {
@@ -20,7 +20,7 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/nuxt-community/nuxt-logrocket",
+  "repository": "https://github.com/nuxt-modules/logrocket",
   "publishConfig": {
     "access": "public"
   },
