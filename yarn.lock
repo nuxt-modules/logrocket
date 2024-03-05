@@ -5051,10 +5051,10 @@ lodash@^4.17.15, lodash@^4.17.21:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
-logrocket@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/logrocket/-/logrocket-5.0.1.tgz#0a1c9fe39e6e39a401b34003b0dba37ffcd5640e"
-  integrity sha512-czWLcDkBJ+V/wooBQtPW76RAS2rszjsfkQumqPO3zPCQka8dcjsuGJxJhcxAuMZf5WDZd/zkvfDZCBJ6zeCQYg==
+logrocket@^8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/logrocket/-/logrocket-8.1.0.tgz#2b804985b5370b359831ee03c92423e08ac48044"
+  integrity sha512-0PRv9lnS90KBrL3mfiQzcKEPvNT3N55pRN0PRe/q3DqWFQbIW1p72MmMp9a3Qi9la6o+TXri7r68ZE0AM7vsDA==
 
 loupe@^2.3.1, loupe@^2.3.6:
   version "2.3.6"
