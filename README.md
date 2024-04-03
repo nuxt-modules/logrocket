@@ -23,7 +23,7 @@ Session replays, product analytics and more for Nuxt apps.
 - Add `nuxt-logrocket` dependency to your project
 
 ```sh
-npm i nuxt-logrocket
+npx nuxi@latest module add logrocket
 ```
 
 - Add `nuxt-logrocket` to the `modules` section of your `nuxt.config.ts` file
