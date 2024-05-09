@@ -45,7 +45,7 @@
     "@nuxtjs/eslint-config-typescript": "latest",
     "eslint": "^8.49.0",
     "nuxt": "^3.7.2",
-    "standard-version": "^9.3.2",
+    "commit-and-tag-version": "^9.5.0",
     "vitest": "^0.34.4"
   }
 }
