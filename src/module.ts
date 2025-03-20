@@ -1,6 +1,6 @@
 import { defu } from 'defu'
 import {
-  isNuxt3,
+  isNuxtMajorVersion,
   addPlugin,
   addImports,
   useLogger,
@@ -135,7 +135,7 @@ export default defineNuxtModule<ModuleOptions>({
   }),
   setup (opts, nuxt) {
     const options = defu<ModuleOptions, any>(
-      isNuxt3()
+      isNuxtMajorVersion(3, nuxt)
         ? nuxt.options.runtimeConfig.public?.logRocket
         // @ts-ignore
         : nuxt.options.publicRuntimeConfig.logRocket || {},
@@ -144,7 +144,7 @@ export default defineNuxtModule<ModuleOptions>({
 
     nuxt.options.alias.LogRocket = 'LogRocket'
 
-    if (isNuxt3()) {
+    if (isNuxtMajorVersion(3, nuxt)) {
       // @ts-ignore
       nuxt.options.runtimeConfig.public.logRocket = options
     } else {
