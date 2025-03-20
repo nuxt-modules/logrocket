@@ -1,12 +1,13 @@
 import { defu } from 'defu'
 import {
-  isNuxt3,
+  isNuxtMajorVersion,
   addPlugin,
   addImports,
   useLogger,
   createResolver,
   defineNuxtModule
 } from '@nuxt/kit'
+import type LogRocket from 'logrocket'
 import { name, version } from '../package.json'
 
 const logger = useLogger('nuxt-logrocket')
@@ -135,7 +136,7 @@ export default defineNuxtModule<ModuleOptions>({
   }),
   setup (opts, nuxt) {
     const options = defu<ModuleOptions, any>(
-      isNuxt3()
+      isNuxtMajorVersion(3, nuxt)
         ? nuxt.options.runtimeConfig.public?.logRocket
         // @ts-ignore
         : nuxt.options.publicRuntimeConfig.logRocket || {},
@@ -144,7 +145,7 @@ export default defineNuxtModule<ModuleOptions>({
 
     nuxt.options.alias.LogRocket = 'LogRocket'
 
-    if (isNuxt3()) {
+    if (isNuxtMajorVersion(3, nuxt)) {
       // @ts-ignore
       nuxt.options.runtimeConfig.public.logRocket = options
     } else {
@@ -176,5 +177,17 @@ declare module '@nuxt/schema' {
     public: {
       logRocket: ModuleOptions;
     };
+  }
+}
+
+declare module '#app' {
+  interface NuxtApp {
+    $LogRocket: typeof LogRocket
+  }
+}
+
+declare module 'vue' {
+  interface ComponentCustomProperties {
+    $LogRocket: typeof LogRocket
   }
 }

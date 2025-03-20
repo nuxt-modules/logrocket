@@ -1,11 +1,11 @@
-import LogRocket from '#imports'
+import { LogRocket, defineNuxtPlugin, useRuntimeConfig } from '#imports'
 
-// type inference required to prevent TS4082 error for 'LR.LogRocket'
-interface NuxtLR { logRocket: Omit<typeof LogRocket, 'init' | 'reduxMiddleware'>}
-export default defineNuxtPlugin<NuxtLR>(({ pinia }) => {
+export default defineNuxtPlugin(({ pinia }) => {
   const opts = useRuntimeConfig()?.public?.logRocket
 
-  if (!opts?.id || (!opts?.dev && !(process.env.NODE_ENV === 'production'))) { return }
+  if (!opts?.id || (!opts?.dev && !(process.env.NODE_ENV === 'production'))) {
+    return
+  }
 
   LogRocket.init(opts?.id, opts?.config)
 

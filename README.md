@@ -51,24 +51,24 @@ Setting a value for the required `id` option is enough in most cases.
 
 Below is the complete list of options:
 
-| Option | Type | Default | Required |
-| :-- | :-- | :-- | :-- |
-| id | `String` | `''` | True |
-| dev | `Boolean` | `true` | False |
-| enablePinia | `Boolean` | `true` | False |
-| release | `String` | `null` | False |
-| consoleEnabled | `Boolean` | `true` | False |
-| networkEnabled | `Boolean` | `true` | False |
-| networkRequestSanitizer | `Function` | - | False |
-| networkResponseSanitizer | `Function` | - | False |
-| domEnabled | `Boolean` | `true` | False |
-| inputSanitizer | `Boolean` | `false` | False |
-| textSanitizer | `Boolean` | `false` | False |
-| baseHref | `String` | `null` | False |
-| shouldCaptureIP | `Boolean` | `true` | False |
-| rootHostname | `String` | `null` | False |
-| shouldDebugLog | `Boolean` | `true` | False |
-| mergeIframes | `Boolean` | `false` | False |
+| Option                   | Type       | Default | Required |
+| :----------------------- | :--------- | :------ | :------- |
+| id                       | `String`   | `''`    | True     |
+| dev                      | `Boolean`  | `true`  | False    |
+| enablePinia              | `Boolean`  | `true`  | False    |
+| release                  | `String`   | `null`  | False    |
+| consoleEnabled           | `Boolean`  | `true`  | False    |
+| networkEnabled           | `Boolean`  | `true`  | False    |
+| networkRequestSanitizer  | `Function` | -       | False    |
+| networkResponseSanitizer | `Function` | -       | False    |
+| domEnabled               | `Boolean`  | `true`  | False    |
+| inputSanitizer           | `Boolean`  | `false` | False    |
+| textSanitizer            | `Boolean`  | `false` | False    |
+| baseHref                 | `String`   | `null`  | False    |
+| shouldCaptureIP          | `Boolean`  | `true`  | False    |
+| rootHostname             | `String`   | `null`  | False    |
+| shouldDebugLog           | `Boolean`  | `true`  | False    |
+| mergeIframes             | `Boolean`  | `false` | False    |
 
 This is an example containing the default values for the options:
 
@@ -135,7 +135,8 @@ export default defineNuxtConfig({
 ## Development
 
 - Clone this repository
-- Install dependencies using `yarn install`
+- Install dependencies using `yarn install` (yarn 1)
+- Prepare playground by running `yarn run prepack`
 - Start development server using `yarn run dev`
 - Point your browser to `http://localhost:3000`
 

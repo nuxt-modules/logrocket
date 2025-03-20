@@ -32,6 +32,7 @@
     "test": "yarn dev:prepare && vitest run test",
     "lint": "eslint --ext .js,.ts,.vue .",
     "lint:fix": "eslint --fix --ext .js,.ts,.vue .",
+    "typing": "nuxi typecheck",
     "release": "yarn lint && yarn test && yarn prepack && yarn standard-version && git push --follow-tags && npm publish"
   },
   "dependencies": {
@@ -45,7 +46,10 @@
     "@nuxtjs/eslint-config-typescript": "latest",
     "eslint": "^8.49.0",
     "nuxt": "^3.7.2",
+    "pinia": "^3.0.1",
     "standard-version": "^9.3.2",
+    "typescript": ">=4.3.5 <5.4.0",
     "vitest": "^0.34.4"
-  }
+  },
+  "packageManager": "yarn@1.22.22"
 }
