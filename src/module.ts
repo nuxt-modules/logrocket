@@ -7,6 +7,7 @@ import {
   createResolver,
   defineNuxtModule
 } from '@nuxt/kit'
+import type LogRocket from 'logrocket'
 import { name, version } from '../package.json'
 
 const logger = useLogger('nuxt-logrocket')
@@ -176,5 +177,17 @@ declare module '@nuxt/schema' {
     public: {
       logRocket: ModuleOptions;
     };
+  }
+}
+
+declare module '#app' {
+  interface NuxtApp {
+    $LogRocket: typeof LogRocket
+  }
+}
+
+declare module 'vue' {
+  interface ComponentCustomProperties {
+    $LogRocket: typeof LogRocket
   }
 }
