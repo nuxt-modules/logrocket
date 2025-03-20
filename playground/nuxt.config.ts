@@ -1,5 +1,5 @@
 import { defineNuxtConfig } from 'nuxt/config'
-import NuxtLogRocket from '..'
+import NuxtLogRocket from '../src/module'
 
 export default defineNuxtConfig({
   modules: [NuxtLogRocket],
